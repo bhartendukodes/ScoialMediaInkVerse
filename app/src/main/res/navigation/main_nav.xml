@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.app.ecriture.ui.mainfragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home"
+        app:enterAnim="@anim/enter_from_right"
+        app:exitAnim="@anim/exit_to_left"
+        app:popEnterAnim="@anim/pop_enter_from_left"
+        app:popExitAnim="@anim/pop_exit_to_right"/>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.app.ecriture.ui.mainfragment.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search"
+        app:enterAnim="@anim/enter_from_right"
+        app:exitAnim="@anim/exit_to_left"
+        app:popEnterAnim="@anim/pop_enter_from_left"
+        app:popExitAnim="@anim/pop_exit_to_right"/>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.app.ecriture.ui.mainfragment.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.app.ecriture.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

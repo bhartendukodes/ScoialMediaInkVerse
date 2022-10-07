@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/titleNotification"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/item_header" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListOfComments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_notification"
+        android:clipToPadding="false"
+        android:paddingTop="10dp"
+        android:background="@color/white"
+        android:overScrollMode="never"
+        android:layout_marginBottom="16dp"
+        android:layout_marginHorizontal="12dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

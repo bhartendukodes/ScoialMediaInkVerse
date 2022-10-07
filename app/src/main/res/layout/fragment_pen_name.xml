@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ui.authentication.SignInFragment">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_ecruiture_logo" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:paddingTop="16dp"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:text="@string/let_s_set_a_pen_name_for_you"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="16dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Select a unique pen name"
+        android:textSize="16sp" />
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edFullName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:boxStrokeWidth="0dp"
+            app:endIconMode="custom"
+            app:boxStrokeWidthFocused="0dp"
+            android:drawableEnd="@drawable/ic_user"
+            android:background="@drawable/bg_button_curve"
+            android:hint="@string/select_a_pen_name"
+            android:inputType="textPersonName"
+            android:padding="18dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivSucessImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_success"
+            android:layout_gravity="end"
+            android:padding="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="4dp"
+            tools:visibility="gone"/>
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnProceed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/gradient_btn"
+            android:fontFamily="@font/mostserrate_bold"
+            android:padding="16dp"
+            android:text="@string/proced"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

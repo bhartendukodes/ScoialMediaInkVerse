@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Ecriture/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2195" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/bg_button_curve.xml" value="0.12" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/bg_gnere_item.xml" value="0.218" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/bg_round_corners.xml" value="0.11" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/child_selector.xml" value="0.2275" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/color_cursor.xml" value="0.34" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/design_search.xml" value="0.2305" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/gradient_btn.xml" value="0.113" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_add.xml" value="0.2305" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_dot_active.xml" value="0.2305" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_dot_inactive.xml" value="0.2305" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_email.xml" value="0.1605" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_facebook_icons.xml" value="0.1605" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_filled_heart.xml" value="0.211" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_google_icon.xml" value="0.2195" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_home.xml" value="0.2275" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_home_use.xml" value="0.2275" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2195" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_more_menu.xml" value="0.211" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_onboarding_one.xml" value="0.2305" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_onboarding_two.xml" value="0.2305" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_password_key.xml" value="0.1605" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_pen_password.xml" value="0.1265" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_success.xml" value="0.1605" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/ic_user.xml" value="0.1605" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/item_banner.xml" value="0.2305" />
+        <entry key="..\:/Ecriture/app/src/main/res/drawable/tab_selector.xml" value="0.2305" />
+        <entry key="..\:/Ecriture/app/src/main/res/font/font.xml" value="0.2609375" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/activity_authentication.xml" value="0.22239583333333332" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/activity_splash.xml" value="0.22239583333333332" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/fragment_notification.xml" value="0.176" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/fragment_on_boarding_screen.xml" value="0.152" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/fragment_pen_name.xml" value="0.176" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/fragment_search.xml" value="0.152" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/fragment_select_categorie.xml" value="0.2" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/fragment_sign_in.xml" value="0.22239583333333332" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/fragment_sign_up.xml" value="0.2" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/item_banner.xml" value="0.22239583333333332" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/item_chat.xml" value="0.33489583333333334" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/item_genere.xml" value="0.4" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/item_header.xml" value="0.176" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/item_header_main.xml" value="0.2" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/item_notification.xml" value="0.33489583333333334" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/item_post.xml" value="0.176" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/item_search_post.xml" value="0.264" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/item_searchable.xml" value="0.22239583333333332" />
+        <entry key="..\:/Ecriture/app/src/main/res/layout/loading_view.xml" value="0.221875" />
+        <entry key="..\:/Ecriture/app/src/main/res/menu-v26/bottom_navigation.xml" value="0.22239583333333332" />
+        <entry key="..\:/Ecriture/app/src/main/res/menu/bottom_navigation.xml" value="0.22239583333333332" />
+        <entry key="..\:/Ecriture/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2195" />
+        <entry key="..\:/Ecriture/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2195" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
