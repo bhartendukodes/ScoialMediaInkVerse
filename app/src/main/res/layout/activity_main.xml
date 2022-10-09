@@ -30,8 +30,8 @@
         app:itemBackground="@drawable/item_line"
         app:itemIconSize="25dp"
         app:itemIconTint="@color/item_color"
-        app:itemRippleColor="@color/white"
         app:labelVisibilityMode="unlabeled"
+        app:itemRippleColor="@color/white"
         app:menu="@menu/bottom_navigation"
         app:layout_constraintTop_toBottomOf="parent"
         />
