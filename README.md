@@ -5,3 +5,4 @@ MVVM ensures functionality matches allure. Effortlessly manage your profile, con
 App with charming dummy content offers sneak peek into exhilarating journey. Dedicated to nurturing genuine connections, sparking meaningful conversations, and making storytelling truly delightful. 🌟📝
 Stay tuned as we transform vision into reality. Your feedback and support drive us, revolutionizing social networking for storytellers! 🌐🤗 #Kotlin #MVVMArchitecture #StorytellingMagic 😉
 
+[animockup (1).webm](https://github.com/bhartendukodes/ScoialMediaInkVerse/assets/90476710/64b7a1b2-d6c4-4715-9603-ae37836a146c)
