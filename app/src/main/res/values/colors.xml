@@ -11,8 +11,8 @@
 
 
 
-    <color name="search_color">#A3B9E9</color>
-    <color name="blue_teal">#6AA7FB</color>
-    <color name="item_background">#FCFBFF</color>
+    <color name="search_color">#B1ED81</color>
+    <color name="blue_teal">#0097B2</color>
+    <color name="item_background">#F6FDFD</color>
     <color name="text_color">#747474</color>
 </resources>

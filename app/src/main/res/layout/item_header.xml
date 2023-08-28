@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:gravity="center"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:fontFamily="@font/mostserrate_bold"
             tools:text="@string/title" />
 
@@ -36,7 +36,7 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="2dp"
+        android:layout_height="1dp"
         android:background="@drawable/gradient_btn"
         android:layout_marginHorizontal="14dp"/>
 

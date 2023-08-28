@@ -13,8 +13,8 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
-        app:strokeColor="@color/blue_teal"
-        app:strokeWidth="2dp">
+        app:strokeColor="@color/search_color"
+        app:strokeWidth="1dp">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/ivProfile"

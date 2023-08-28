@@ -22,7 +22,17 @@ object DummyData {
         Genere(15, "History"),
         Genere(16, "Drama"),
         Genere(17, "Humor"),
-        Genere(18, "Mythical")
+        Genere(18, "Mythical"),
+        Genere(1, "Fiction"),
+        Genere(2, "Non Fiction"),
+        Genere(3, "Poetry"),
+        Genere(4, "Horror"),
+        Genere(5, "Novella"),
+        Genere(6, "Short Story"),
+        Genere(7, "Essay"),
+        Genere(8, "Travel"),
+        Genere(9, "Science Fiction"),
+        Genere(10, "Fantasy"),
     )
 
     val postedSearch = listOf(

@@ -33,4 +33,14 @@
         android:name="com.app.ecriture.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/writeUpScreen"
+        android:name="com.app.ecriture.WriteUpScreen"
+        android:label="fragment_write_up_screen"
+        tools:layout="@layout/fragment_write_up_screen" />
+    <dialog
+        android:id="@+id/uploadMediaDialog"
+        android:name="com.app.ecriture.UploadMediaDialog"
+        android:label="fragment_upload_media_dialog"
+        tools:layout="@layout/fragment_upload_media_dialog" />
 </navigation>

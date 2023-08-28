@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="14dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="Select at least 3"
         android:textSize="16sp" />
@@ -50,7 +50,7 @@
         app:spanCount="3"
         android:layout_gravity="center_vertical"
         android:layout_marginHorizontal="14dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="22dp"
         tools:itemCount="17"/>
 
         <androidx.appcompat.widget.AppCompatButton

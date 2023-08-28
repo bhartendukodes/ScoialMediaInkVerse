@@ -7,7 +7,7 @@
         android:end="8dp"
         android:start="6dp">
         <shape android:shape="oval">
-            <solid android:color="#B8A1FF" />
+            <solid android:color="#B1ED81" />
             <corners android:radius="20dp" />
             <size
                 android:width="8dp"

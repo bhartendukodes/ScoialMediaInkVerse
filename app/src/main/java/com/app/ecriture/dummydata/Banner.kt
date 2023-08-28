@@ -5,3 +5,4 @@ data class Banner(
     val text:String,
     val image:Int,
 )
+

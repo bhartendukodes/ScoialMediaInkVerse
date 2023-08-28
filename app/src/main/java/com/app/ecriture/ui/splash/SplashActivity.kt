@@ -1,6 +1,5 @@
 package com.app.ecriture.ui.splash
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.core.content.ContextCompat
 import androidx.core.view.WindowInsetsControllerCompat
@@ -20,13 +19,16 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>(ActivitySplashBinding
     }
 
     private fun statusColor() {
-        WindowInsetsControllerCompat(this.window, this.window.decorView).isAppearanceLightStatusBars = true
+        WindowInsetsControllerCompat(
+            this.window,
+            this.window.decorView
+        ).isAppearanceLightStatusBars = true
         this.window.statusBarColor = ContextCompat.getColor(this, R.color.item_background)
     }
 
 
     private fun navigate() {
-        lifecycleScope.launch{
+        lifecycleScope.launch {
             delay(4000)
             startActivity(Intent(this@SplashActivity, ActivityAuthentication::class.java))
             finishAffinity()

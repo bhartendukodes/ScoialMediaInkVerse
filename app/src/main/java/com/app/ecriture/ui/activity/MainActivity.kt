@@ -1,5 +1,8 @@
 package com.app.ecriture.ui.activity
 
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.navigation.NavController
@@ -30,7 +33,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::infl
                R.id.searchFragment->{
 
                }
-               R.id.postFragment->{
+               R.id.writeUpScreen->{
 
                }
                R.id.notificationFragment->{
@@ -64,3 +67,5 @@ class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::infl
 
 
 }
+
+

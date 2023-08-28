@@ -7,3 +7,9 @@ data class SearchList(
     val caption:String,
     val image:Int
 )
+
+
+data class ProfileList(
+    val id:Int,
+    val profileImage: Int
+)
