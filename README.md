@@ -1,8 +1,34 @@
-Hello Everyone,
-🚀 Dive into our innovative social media app, crafted with Kotlin and powered by sleek MVVM architecture! 📱✨
-Immerse in captivating UI and seamless user experience, tailored for expressing stories through writing. Our app, infused with love and creativity, features enchanting interface, captivating designs, and fluid animations that'll leave you spellbound. 🎨🎉
-MVVM ensures functionality matches allure. Effortlessly manage your profile, connect with friends, share unique moments using intuitive, storyteller-friendly design. 💬✍️
-App with charming dummy content offers sneak peek into exhilarating journey. Dedicated to nurturing genuine connections, sparking meaningful conversations, and making storytelling truly delightful. 🌟📝
-Stay tuned as we transform vision into reality. Your feedback and support drive us, revolutionizing social networking for storytellers! 🌐🤗 #Kotlin #MVVMArchitecture #StorytellingMagic 😉
+# InkVerse - Social Media App
 
-[animockup (1).webm](https://github.com/bhartendukodes/ScoialMediaInkVerse/assets/90476710/64b7a1b2-d6c4-4715-9603-ae37836a146c)
+A social media Android application built with Kotlin where users can share posts, connect with others, and express themselves through content.
+
+## Features
+
+- User registration and authentication
+- Create and share posts with images
+- Follow/unfollow users
+- Like and comment on posts
+- User profile with post history
+- Real-time feed updates
+
+## Tech Stack
+
+- **Language:** Kotlin
+- **Architecture:** MVVM
+- **Backend:** Firebase (Auth, Firestore, Storage)
+- **Image Loading:** Glide
+- **UI:** Material Design
+
+## Getting Started
+
+1. Clone the repository
+```
+git clone https://github.com/bhartendukodes/ScoialMediaInkVerse.git
+```
+2. Open in Android Studio
+3. Add your `google-services.json` from Firebase Console
+4. Build and run
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
